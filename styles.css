@@ -1,0 +1,169 @@
+#header
+{
+    background-image:url(/GR.jpg);
+    height: 200px;
+    margin-right:10%;
+    margin-left:10%;
+}
+
+.head-text
+{
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu-bar{
+  background-color: #6d767e;
+  width:100%;
+  overflow:hidden;
+  position:relative;
+  top:48%;
+}
+
+ul.menu {
+  list-style-type: none;
+  padding:0;
+  font-weight: bold;
+
+}
+
+li.menu-li {
+  float:left;
+
+}
+
+a.menu-a {
+  display: block;
+  color: white;
+  padding: 0px 10px;
+  text-align: left;
+  text-decoration: none;
+}
+
+a.menu-a:hover {      /* a link when the user mouses over it, a:hover MUST come after a:link and a:visited */
+  color: yellow;
+}
+
+a.menu-a:active {    /* a link the moment it is clicked */
+  color: grey;
+}
+
+* {box-sizing: border-box}
+
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 18%;
+  margin-left: 10%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 8px 5px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding-left: 1%;
+  border: 1px solid #ccc;
+  width: 62%;
+  display: none;
+}
+
+/* Clear floats after the tab */
+.clearfix: after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.bold{
+  font-weight:bold;
+}
+
+.text{
+  font-size:14px;
+}
+
+ul.GR{
+  font-size:13px;
+}
+
+.mw-references-columns {
+  column-width: 100%;
+}
+
+ol.references {
+  font-size: 60%;
+  padding-left: 2%;
+}
+
+a.reference-link{
+   font-size: 100%;
+ }
+
+h2 {
+  font-size:28px;
+}
+
+h3 {
+  font-size:22px;
+}
+
+hr{
+  border-top: 0.5px solid grey;
+  margin-bottom: 0.5em;
+  margin-right:1%;
+  opacity:0.5;
+}
+
+#history {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#history td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#history tr:nth-child(even){background-color: #f2f2f2;}
+
+#history tr:hover {background-color: #ddd;}
+
+#history th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
